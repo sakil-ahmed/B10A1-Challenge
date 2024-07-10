@@ -153,6 +153,7 @@
     letter-spacing: 0;
     margin-bottom: 16px;
 }
+
 .w-card-title:not(:nth-child(1)) {
     max-width: 390px;
     width: 100%;
@@ -164,3 +165,40 @@
 }
 
 /* Why Web Development?? */
+
+
+/**/
+.inspiration-section {
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.inspiration-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.inspiration-description {
+    text-align: center;
+    max-width: 852px;
+    width: 100%;
+    margin: 0 auto 48px auto;
+
+
+}
+
+.video-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/**/
