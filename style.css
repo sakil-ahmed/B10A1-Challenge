@@ -202,3 +202,64 @@
 }
 
 /**/
+
+/*My Current Target*/
+.target-section {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.target-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-description {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.target-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.target-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-card:last-child{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-card:nth-child(2) {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-card-img {
+    margin-bottom: 24px;
+}
+
+.target-card-title {
+    margin-bottom: 8px;
+}
+
+.target-card-description {
+    margin-bottom: 24px;
+}
+
+.link {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/*My Current Target*/
