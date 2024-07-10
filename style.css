@@ -269,7 +269,13 @@
 /*support section*/
 .support-bg {
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2) url('assets/handshake.jpg') no-repeat center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('assets/handshake.jpg');
+
     padding: 64px 48px;
     display: flex;
     flex-direction: column;
@@ -292,6 +298,7 @@
 
 .support-description {
     color: white;
+    text-align: center;
 }
 
 .support-form {
@@ -340,11 +347,13 @@
 
 
 }
-.footer-wrapper{
+
+.footer-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .social-icons {
     display: flex;
     align-items: center;
